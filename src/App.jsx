@@ -1,12 +1,7 @@
-const App = () => {
-  const name = 'ArtisMine';
+import HomePage from './pages/home';
 
-  return (
-    <div>
-      <h1>Welcome to {name}</h1>
-      <p>ArtisMine is a platform for artists to share their work and connect with other artists.</p>
-    </div>
-  );
+const App = () => {
+  return <HomePage />;
 };
 
 export default App;
