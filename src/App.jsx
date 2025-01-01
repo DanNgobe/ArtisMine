@@ -1,7 +1,7 @@
-import HomePage from './pages/home';
+import Dashboard from './pages/dashboard';
 
 const App = () => {
-  return <HomePage />;
+  return <Dashboard />;
 };
 
 export default App;
